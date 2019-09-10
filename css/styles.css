@@ -1,0 +1,41 @@
+li {
+    list-style-type: none;
+ 
+}
+ .wrapper-panel {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#chesterbio{
+    background-image: repeating-radial-gradient(red, orange, green);
+    width: 50%;
+}
+
+#mikebio{
+    width: 50%; 
+    background-image: repeating-linear-gradient(pink, yellow, blue);
+}
+ 
+nav {
+    position: fixed; 
+    left: 0%; 
+    top: 10%; 
+    background-color: red; 
+    width: 100%;
+}
+
+nav > a {
+    margin: 0; 
+    padding: 0;
+    text-decoration: none; 
+    color: blue; 
+
+}
